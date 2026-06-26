@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Blog</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+</head>
+<body>
+    <header>
+        <h1 style="color:blue;">"Journeys of Friendship: Exploring the World Together."</h1>
+        <p>I love sharing my travel experiences and the wonderful friendships I've formed along the way.</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://www.tripadvisor.com/Tourism-g187147-Paris_Ile_de_France.html" target="_blank" rel="noopener noreferrer">France</a></li>
+                <li><a href="https://www.tripadvisor.com/Tourism-g298184-Tokyo_Tokyo_Prefecture_Kanto.html" target="_blank" rel="noopener noreferrer">Tokyo</a></li>
+                <li><a href="https://www.tripadvisor.com/Tourism-g60763-New_York_City_New_York.html" target="_blank" rel="noopener noreferrer">New York</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="France">
+        <h1>Exploring the Charms of France</h1>
+        <p>France is a country known for its rich history, art, and cuisine.</p>
+        <figure>
+            <img src="eiffel-tower.jpg" alt="Eiffel Tower in Paris, France" width="400">
+            <figcaption>The Eiffel Tower, an iconic symbol of France, located in Paris.</figcaption>
+        </figure>
+    </section>
+    <section id="Tokyo">
+        <h1>Discovering the Vibrant City of Tokyo</h1>
+        <p>Tokyo, the capital of Japan, is a bustling metropolis that seamlessly blends tradition and modernity.</p>
+    </section>
+    <section id="New-York">
+        <h1>Experiencing the Energy of New York City</h1>
+        <p>New York City, often referred to as "The Big Apple," is a city that never sleeps.</p>
+    </section>
+    <section id="photo-gallery">
+        <h2>Travel Gallery</h2>
+        <p>Step into our world of adventures. Each photo tells a story, each moment a memory.</p>
+        <ul>
+            <li>
+                <figure>
+                    <img src="city-a.jpg" alt="Breathtaking view of City A">
+                    <figcaption>The day we lost track of time watching the sunset in City A.</figcaption>
+                </figure>
+            </li>
+        </ul>
+    </section>
+    <form action="/submit-form" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="username" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="3" required></textarea>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    <section id="newsletter">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Stay updated with our latest travel stories and tips. Subscribe to our newsletter!</p>
+        <form action="/subscribe" method="post">
+            <label for="newsletter-email">Email:</label>
+            <input type="email" id="newsletter-email" name="email" required>
+            <div>
+                <input type="checkbox" id="consent" name="consent" required>
+                <label for="consent">I agree to receive email updates and promotions.</label>
+            </div>
+            <button type="submit">Subscribe Now</button>
+        </form>
+    </section>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="/about.html">About Us</a></li>
+                <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+                <li><a href="/terms-of-use.html">Terms of Use</a></li>
+            </ul>
+        </nav>
+        <div class="social-media">
+            <a href="https://example.com/faceblock" target="_blank" rel="noopener noreferrer">Faceblock</a>
+            <a href="https://example.com/tweety" target="_blank" rel="noopener noreferrer">Tweety</a>
+            <a href="https://example.com/instadrama" target="_blank" rel="noopener noreferrer">Instadrama</a>
+        </div>
+        <div class="contact-info">
+            <p>Contact us at: <a href="mailto:contact@globaladventuresblog.com">contact@globaladventuresblog.com</a></p>
+        </div>
+        <div class="copyright">
+            <p>© 2035 Global Adventures Blog. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
